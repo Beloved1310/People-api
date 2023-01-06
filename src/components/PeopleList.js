@@ -11,7 +11,7 @@ export default function PeopleList() {
 
   if (peoples.length < 1) {
     return (
-      <h2 className="section-title">no peoples matched your search criteria</h2>
+      <h2 className="section-title">no person matched your search criteria</h2>
     );
   }
   return (
